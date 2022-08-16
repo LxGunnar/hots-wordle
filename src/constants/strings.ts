@@ -1,14 +1,14 @@
 export const GAME_TITLE = process.env.REACT_APP_GAME_NAME!
 
-export const WIN_MESSAGES = ['Bom trabalho!', 'Parabéns', 'Well done!']
+export const WIN_MESSAGES = ['Bom trabalho!', 'Parabéns', 'Muito Bem!']
 export const GAME_COPIED_MESSAGE = 'Game copied to clipboard'
-export const NOT_ENOUGH_LETTERS_MESSAGE = 'Not enough letters'
+export const NOT_ENOUGH_LETTERS_MESSAGE = 'Letras insuficientes'
 export const WORD_NOT_FOUND_MESSAGE = 'Palavra não encontrada'
 export const HARD_MODE_ALERT_MESSAGE =
-  'Hard Mode can only be enabled at the start!'
+  'Hard Mode só pode ser ativado no início!'
 export const HARD_MODE_DESCRIPTION =
   'Any revealed hints must be used in subsequent guesses'
-export const HIGH_CONTRAST_MODE_DESCRIPTION = 'For improved color vision'
+export const HIGH_CONTRAST_MODE_DESCRIPTION = 'Para melhor visão de cores'
 export const CORRECT_WORD_MESSAGE = (solution: string) =>
   `The word was ${solution}`
 export const WRONG_SPOT_MESSAGE = (guess: string, position: number) =>
@@ -18,8 +18,8 @@ export const NOT_CONTAINED_MESSAGE = (letter: string) =>
 export const ENTER_TEXT = 'Enter'
 export const DELETE_TEXT = 'Delete'
 export const STATISTICS_TITLE = 'Estatísticas'
-export const GUESS_DISTRIBUTION_TEXT = 'Guess Distribution'
-export const NEW_WORD_TEXT = 'New word in'
+export const GUESS_DISTRIBUTION_TEXT = 'Distribuição das Partidas'
+export const NEW_WORD_TEXT = 'Nova palavra em:'
 export const SHARE_TEXT = 'Compartilhar'
 export const SHARE_FAILURE_TEXT =
   'Unable to share the results. This feature is available only in secure contexts (HTTPS), in some or all supporting browsers.'
