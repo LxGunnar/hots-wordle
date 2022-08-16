@@ -13,6 +13,9 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         Adivinhe a palavra relacionada ao jogo Heroes of the Storm em 6 tentavitas. 
         Após cada palpite, a cor das peças mudará para mostrar quão próximo seu palpite estava da palavra.
       </p>
+      <p className="text-sm text-gray-500 dark:text-gray-300">
+        Modo de Jogar: Todas as palavras serão em Português. Você poderá usar palavras do vocábulario a fim de tentar acertar.
+      </p>
 
       <div className="mb-1 mt-4 flex justify-center">
         <Cell
