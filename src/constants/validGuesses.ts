@@ -6206,8 +6206,6 @@ export const VALID_GUESSES = [
 'cxxvi',
 'cxxxi',
 'cxxxv',
-'d'aço',
-'d'arc',
 'dabio',
 'dabom',
 'dabos',
