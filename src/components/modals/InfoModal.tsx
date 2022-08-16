@@ -23,7 +23,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
       </p>
 
       <p className="text-sm italic text-gray-500 dark:text-gray-300">
-        O TermoHOTS não se limita apenas a 5 letras.
+        O TermoHOTS não se limita apenas a heróis e a 5 letras.
       </p>
 
       <div className="mb-1 mt-4 flex justify-center">
