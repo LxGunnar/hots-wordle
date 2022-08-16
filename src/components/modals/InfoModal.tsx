@@ -8,23 +8,24 @@ type Props = {
 
 export const InfoModal = ({ isOpen, handleClose }: Props) => {
   return (
-    <BaseModal title="How to play" isOpen={isOpen} handleClose={handleClose}>
+    <BaseModal title="Como Jogar TermoHOTS" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        Guess the word in 6 tries. After each guess, the color of the tiles will
-        change to show how close your guess was to the word.
+        Adivinhe a palavra relacionada ao jogo Heroes of the Storm em 6 tentavitas. 
+        Após cada palpite, a cor das peças mudará para mostrar quão próximo seu palpite estava da palavra.
       </p>
 
       <div className="mb-1 mt-4 flex justify-center">
         <Cell
           isRevealing={true}
           isCompleted={true}
-          value="W"
+          value="S"
           status="correct"
         />
-        <Cell value="E" />
         <Cell value="A" />
+        <Cell value="M" />
+        <Cell value="U" />
         <Cell value="R" />
-        <Cell value="Y" />
+        <Cell value="O" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
         The letter W is in the word and in the correct spot.
