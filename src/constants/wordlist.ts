@@ -1,4 +1,5 @@
 export const WORDS = [
-  'tentando',
-  'tentar',
+  'aureo',
+  'minta',
+  'moido'
 ]
