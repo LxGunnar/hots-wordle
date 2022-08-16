@@ -1,7 +1,7 @@
 export const GAME_TITLE = process.env.REACT_APP_GAME_NAME!
 
 export const WIN_MESSAGES = ['Bom trabalho!', 'Parabéns', 'Muito Bem!']
-export const GAME_COPIED_MESSAGE = 'Game copied to clipboard'
+export const GAME_COPIED_MESSAGE = 'Jogo copiado para a área de transferência'
 export const NOT_ENOUGH_LETTERS_MESSAGE = 'Letras insuficientes'
 export const WORD_NOT_FOUND_MESSAGE = 'Palavra não encontrada'
 export const HARD_MODE_ALERT_MESSAGE =
@@ -10,7 +10,7 @@ export const HARD_MODE_DESCRIPTION =
   'Any revealed hints must be used in subsequent guesses'
 export const HIGH_CONTRAST_MODE_DESCRIPTION = 'Para melhor visão de cores'
 export const CORRECT_WORD_MESSAGE = (solution: string) =>
-  `The word was ${solution}`
+  `A palavra era ${solution}`
 export const WRONG_SPOT_MESSAGE = (guess: string, position: number) =>
   `Must use ${guess} in position ${position}`
 export const NOT_CONTAINED_MESSAGE = (letter: string) =>
