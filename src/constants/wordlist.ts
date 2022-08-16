@@ -1,5 +1,5 @@
 export const WORDS = [
-  'aureo',
-  'minta',
-  'moido',
+  'amadurecer',
+  'amostrar',
+  'tentativa',
 ]
