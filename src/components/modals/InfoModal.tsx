@@ -10,20 +10,12 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
   return (
     <BaseModal title="TermoHOTS" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        TermoHOTS é uma versão baseada em Heroes of the Storm, moba da Blizzard. 
+        TermoHOTS is a version based on Heroes of the Storm, Blizzard's moba. It is limited to only the names of the heroes.
       </p>
 
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        Adivinhe a palavra relacionada ao jogo HOTS em 6 tentavitas. 
-        Após cada palpite, a cor das peças mudará para mostrar quão próximo seu palpite estava da palavra.
-      </p>
-
-      <p className="text-sm text-gray-500 dark:text-gray-300">
-        <strong>Modo de Jogar:</strong> Todas as palavras serão em Português. Você poderá usar palavras do vocábulario a fim de tentar acertar.
-      </p>
-
-      <p className="text-sm italic text-gray-500 dark:text-gray-300">
-        O TermoHOTS não se limita apenas a heróis e a 5 letras.
+        Guess the word related to HOTS in 6 guesses. Only names of heroes will be recognized. 
+        After each guess, the color of the tiles will change to show how close your guess was to the word.
       </p>
 
       <div className="mb-1 mt-4 flex justify-center">
@@ -40,38 +32,38 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         <Cell value="O" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        A letra S está na palavra e no local correto.
+        The letter S is in the word and in the correct spot.
       </p>
 
       <div className="mb-1 mt-4 flex justify-center">
-        <Cell value="O" />
-        <Cell value="B" />
+        <Cell value="V" />
+        <Cell value="A" />
         <Cell
           isRevealing={true}
           isCompleted={true}
-          value="J"
+          value="L"
           status="present"
         />
         <Cell value="E" />
-        <Cell value="T" />
-        <Cell value="I" />
-        <Cell value="V" />
-        <Cell value="O" />
+        <Cell value="E" />
+        <Cell value="R" />
+        <Cell value="A" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        A letra J está presente na palavra, mas no lugar errado.
+        The letter L is in the word but in the wrong spot.
       </p>
 
       <div className="mb-1 mt-4 flex justify-center">
         <Cell value="B" />
-        <Cell value="Á" />
-        <Cell value="S" />
-        <Cell isRevealing={true} isCompleted={true} value="I" status="absent" />
-        <Cell value="C" />
-        <Cell value="O" />
+        <Cell value="U" />
+        <Cell value="T" />
+        <Cell isRevealing={true} isCompleted={true} value="C" status="absent" />
+        <Cell value="H" />
+        <Cell value="E" />
+        <Cell value="R" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        A letra I não está na palavra em nenhum lugar.
+        The letter C is not in the word in any spot.
       </p>
 
       <p className="p-3">
@@ -81,7 +73,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
       <h2 className="text-center text-lg leading-6 font-medium text-gray-900 dark:text-white" id="headlessui-dialog-title-7">Sobre</h2>
 
       <p className="mt-6 text-sm text-gray-500 dark:text-gray-300">
-         Baseado no código de
+       Based on the code from
         <a
           href="https://github.com/cwackerfuss/react-wordle"
           className="font-bold"
@@ -91,7 +83,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
       </p>
 
       <p className="text-sm text-gray-500 dark:text-gray-300">
-         Adaptado por Gustavo "Gunnar"
+         Adapted by Brazilian Gustavo "Gunnar"
       </p>
 
         <p className="mt-6 text-sm text-gray-500 dark:text-gray-300">
@@ -100,7 +92,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
           className="font-bold"
           target="_blank"
           rel="nofollow"
-          >Siga a Calamity Gaming</a>.
+          >Follow Calamity Gaming</a>.
       </p>
     </BaseModal>
   )

@@ -1,34 +1,34 @@
 export const GAME_TITLE = process.env.REACT_APP_GAME_NAME!
 
-export const WIN_MESSAGES = ['Bom trabalho!', 'Parabéns', 'Muito Bem!']
-export const GAME_COPIED_MESSAGE = 'Jogo copiado para a área de transferência'
-export const NOT_ENOUGH_LETTERS_MESSAGE = 'Letras insuficientes'
-export const WORD_NOT_FOUND_MESSAGE = 'Palavra não encontrada'
+export const WIN_MESSAGES = ['Great Job!', 'Awesome', 'Well done!']
+export const GAME_COPIED_MESSAGE = 'Game copied to clipboard'
+export const NOT_ENOUGH_LETTERS_MESSAGE = 'Not enough letters'
+export const WORD_NOT_FOUND_MESSAGE = 'Word not found'
 export const HARD_MODE_ALERT_MESSAGE =
-  'Modo Difícil só pode ser ativado no início!'
+  'Hard Mode can only be enabled at the start!'
 export const HARD_MODE_DESCRIPTION =
-  'A letra revelada deve ser utilizada na mesma posição suposições posteriores.'
-export const HIGH_CONTRAST_MODE_DESCRIPTION = 'Para melhor visão de cores'
+  'Any revealed hints must be used in subsequent guesses'
+export const HIGH_CONTRAST_MODE_DESCRIPTION = 'For improved color vision'
 export const CORRECT_WORD_MESSAGE = (solution: string) =>
-  `A palavra era ${solution}`
+  `The word was ${solution}`
 export const WRONG_SPOT_MESSAGE = (guess: string, position: number) =>
-  `Deve usar a letra ${guess} na posição ${position}`
+  `Must use ${guess} in position ${position}`
 export const NOT_CONTAINED_MESSAGE = (letter: string) =>
-  `A palavra deve conter a letra ${letter}`
+  `Guess must contain ${letter}`
 export const ENTER_TEXT = 'Enter'
 export const DELETE_TEXT = 'Delete'
-export const STATISTICS_TITLE = 'Estatísticas'
-export const GUESS_DISTRIBUTION_TEXT = 'Distribuição das Partidas'
-export const NEW_WORD_TEXT = 'Nova palavra em:'
-export const SHARE_TEXT = 'Compartilhar'
+export const STATISTICS_TITLE = 'Statistics'
+export const GUESS_DISTRIBUTION_TEXT = 'Guess Distribution'
+export const NEW_WORD_TEXT = 'New word in'
+export const SHARE_TEXT = 'Share'
 export const SHARE_FAILURE_TEXT =
-  'Incapaz de compartilhar os resultados. Esta característica está disponível apenas em contextos seguros (HTTPS), em alguns ou todos os navegadores de suporte.'
-export const MIGRATE_BUTTON_TEXT = 'Transferir'
+  'Unable to share the results. This feature is available only in secure contexts (HTTPS), in some or all supporting browsers.'
+export const MIGRATE_BUTTON_TEXT = 'Transfer'
 export const MIGRATE_DESCRIPTION_TEXT =
-  'Clique aqui para transferir suas estatísticas para um novo dispositivo.' 
-export const TOTAL_TRIES_TEXT = 'Partidas Jogadas'
-export const SUCCESS_RATE_TEXT = 'Taxa de acerto'
-export const CURRENT_STREAK_TEXT = 'Sequência Atual'
-export const BEST_STREAK_TEXT = 'Melhor Sequência'
+  'Click here to transfer your statistics to a new device.' 
+export const TOTAL_TRIES_TEXT = 'Total tries'
+export const SUCCESS_RATE_TEXT = 'Success rate'
+export const CURRENT_STREAK_TEXT = 'Current streak'
+export const BEST_STREAK_TEXT = 'Best streak'
 export const DISCOURAGE_INAPP_BROWSER_TEXT =
-  "Você está usando um navegador incorporado e pode ter problemas para compartilhar ou salvar seus resultados. Nós o encorajamos a usar o navegador padrão de seu dispositivo."
+  "You are using an embedded browser and may experience problems sharing or saving your results. We encourage you rather to use your device's default browser."

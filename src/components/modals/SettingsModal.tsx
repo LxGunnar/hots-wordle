@@ -30,18 +30,18 @@ export const SettingsModal = ({
     <BaseModal title="Configurações" isOpen={isOpen} handleClose={handleClose}>
       <div className="mt-2 flex flex-col divide-y">
         <SettingsToggle
-          settingName="Modo Difícil"
+          settingName="Hard Mode"
           flag={isHardMode}
           handleFlag={handleHardMode}
           description={HARD_MODE_DESCRIPTION}
         />
         <SettingsToggle
-          settingName="Modo escuro"
+          settingName="Dark Mode"
           flag={isDarkMode}
           handleFlag={handleDarkMode}
         />
         <SettingsToggle
-          settingName="Modo Alto Contraste"
+          settingName="High Contrast Mode"
           flag={isHighContrastMode}
           handleFlag={handleHighContrastMode}
           description={HIGH_CONTRAST_MODE_DESCRIPTION}
